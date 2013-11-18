@@ -23,10 +23,10 @@ To use a MOA classifier you only need to use the SAMOA `SingleClassifier` with t
 A complete example to use SAMOA bagging with MOA HoeffdingTree:
 
 ```bash
-java -cp samoa/target/*.jar com.yahoo.labs.samoa.topology.impl.SimpleDoTask "PrequentialEvaluation 
+java -cp samoa/target/*.jar com.yahoo.labs.samoa.LocalDoTask "PrequentialEvaluation 
 -l (classifiers.ensemble.Bagging -s 10 -l (classifiers.SingleClassifier -l  
 (MOAClassifierAdapter -l moa.classifiers.trees.HoeffdingTree)))  -f 100000 -i 1000000"
 ```
 
-Notice that this example uses the Simple Engine.
+Notice that this example uses the Local Testing mode of SAMOA.
 
