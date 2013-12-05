@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>samoa-moa</groupId>
+    <artifactId>samoa-moa</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>nz.ac.waikato.cms.moa</groupId>
+            <artifactId>moa-dev</artifactId>
+            <version>2013.11</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/moa-dev-13-11.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yahoo.labs.samoa</groupId>
+            <artifactId>samoa-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/samoa-api-0.0.1-SNAPSHOT.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>license-maven-plugin</artifactId>
+                <version>1.5</version>
+                <configuration>
+                    <licenseName>gpl_v3</licenseName>
+                    <inceptionYear>2013</inceptionYear>
+                    <organizationName>SAMOA-MOA</organizationName>
+                    <projectName>SAMOA-MOA</projectName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
