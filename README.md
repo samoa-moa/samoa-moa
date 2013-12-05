@@ -1,18 +1,19 @@
 samoa-moa
 =========
 
-SAMOA Extension that integrates MOA into SAMOA
+SAMOA plugin that integrates MOA into SAMOA.
 
-With this extension, it is possible to use MOA classifiers and clusterers inside SAMOA.
+This plugin allows to use MOA classifiers and clusterers inside SAMOA.
 
 ##Setup
 
-You need to have installed SAMOA. Download 
+You need to have installed [SAMOA](https://github.com/yaho/samoa).
+Download 
 
-- [the new developer version of MOA](https://sourceforge.net/projects/moa-datastream/files/MOA/2013%20August/moa-dev-13-11.jar/download) | [Source Code](https://code.google.com/r/abifet-moa-dev/)
-- [samoa-moa.jar](https://sourceforge.net/projects/moa-datastream/files/MOA/2013%20August/samoa-moa.jar/download) 
+- [the new developer version of MOA](https://sourceforge.net/projects/moa-datastream/files/MOA/2013%20August/moa-dev-13-11.jar) | [Source Code](https://code.google.com/r/abifet-moa-dev/)
+- [samoa-moa.jar](https://sourceforge.net/projects/moa-datastream/files/MOA/2013%20August/samoa-moa.jar) 
 
-into `samoa/target`.
+into `samoa/target/`.
 
 ##Example
 
@@ -28,5 +29,5 @@ java -cp "samoa/target/*" com.yahoo.labs.samoa.LocalDoTask "PrequentialEvaluatio
 (MOAClassifierAdapter -l moa.classifiers.trees.HoeffdingTree)))  -f 100000 -i 1000000"
 ```
 
-Notice that this example uses the Local Testing mode of SAMOA.
+Notice that this example uses the Local mode of SAMOA.
 
