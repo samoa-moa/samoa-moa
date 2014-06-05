@@ -7,7 +7,7 @@ This plugin allows to use MOA classifiers and clusterers inside SAMOA.
 
 ##Setup
 
-You need to have installed [SAMOA](https://github.com/yaho/samoa).
+You need to have installed [SAMOA](https://github.com/yahoo/samoa).
 Download
 
 - [the new developer version of MOA](https://sourceforge.net/projects/moa-datastream/files/MOA/2013%20August/moa-dev-13-11.jar) | [Source Code](https://code.google.com/r/abifet-moa-dev/)
