@@ -15,7 +15,7 @@ Download
 
 into `samoa/target/`.
 
-The jar for the developer version of MOA is available in the `lib` folder of this project.
+The jar for the developer version of MOA is available in the `/lib/` folder of this project.
 You can build `samoa-moa.jar` by cloning this project and issuing `mvn package` on the command line.
 
 ##Example
